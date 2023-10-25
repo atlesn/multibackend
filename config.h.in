@@ -1,6 +1,0 @@
-#ifndef MB_CONFIG_H
-#define MB_CONFIG_H
-
-#define MB_INT_IS_32 "@MB_INT_IS_32@"
-
-#endif /* MB_CONFIG_H */
