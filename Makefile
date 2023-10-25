@@ -10,10 +10,10 @@ all: mb.wasm \
 	${CC} ${CFLAGS} -o $@ $<
 
 %.mjs: %.mts
-	${TSC} ${TSCFLAGS} --outFile $@ $<
+	${TSC} ${TSCFLAGS} $<
 
 clean:
-	rm -f *.wasm
+	rm -f *.wasm *.mjs
 
 .PHONY: all clean
 

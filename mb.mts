@@ -1,6 +1,6 @@
 const MB_WASM_PATH = 'mb.wasm';
 
-class MB {
+export class MB {
 	constructor() {
 		WebAssembly.instantiateStreaming(fetch(MB_WASM_PATH), {
 			env: {
