@@ -1,0 +1,16 @@
+/autom4te.cache
+/configure
+/install-sh
+/autom4te.cache
+/aclocal.m4
+/compile
+/config.log
+/config.status
+/configure
+/configure~
+/install-sh
+/missing
+Makefile
+Makefile.in
+*.a
+*.o
