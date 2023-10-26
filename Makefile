@@ -1,5 +1,5 @@
 TSC = tsc
-TSCFLAGS = --module system
+TSCFLAGS = --module NodeNext
 CC = clang
 CFLAGS := --target=wasm32 -nostdlib -nostdinc -c
 
